@@ -39,9 +39,9 @@ This lite version uses 50 problems sampled from HealthBench Hard (seed=42).
 
 ## Model
 
-By default, `agent.py` uses the model specified by `SOLVER_MODEL` env var (default: `gpt-4.1-mini`).
-The grader always uses `GRADER_MODEL` env var (default: `gpt-4.1-mini`).
-You may change the solver model in `agent.py` but be mindful of cost.
+The model is fixed to `gpt-4.1-mini` (`SOLVER_MODEL` env var). **Do NOT change the model** — the goal is to improve the agent's reasoning, prompting, and pipeline strategy, not to swap in a more expensive model.
+
+The grader uses `GRADER_MODEL` env var (default: `gpt-4.1-mini`). Do not change the grader.
 
 ## Output Format
 
