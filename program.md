@@ -92,4 +92,4 @@ You are autonomous. The loop runs until interrupted.
 - Few-shot examples of good medical responses
 - Safety disclaimers and appropriate hedging
 - Empathetic communication patterns
-- Model upgrade (gpt-4.1, gpt-4o, etc.)
+- Response length optimization (concise vs thorough)
