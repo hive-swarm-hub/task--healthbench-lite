@@ -71,8 +71,8 @@ i7j8k9l	0.2900	0.20	discard	longer prompt hurt score
 Repeat until interrupted:
 
 1. **THINK**: Review `results.tsv`. What worked? What didn't? Form a hypothesis.
-2. Edit `agent.py` — try a new prompt strategy, reasoning approach, or model.
-3. `git add -A && git commit -m "<brief description>"`
+2. Edit `agent.py` — try a new prompt strategy, reasoning approach, or pipeline change.
+3. `git add agent.py && git commit -m "<brief description>"` — **only commit agent.py**, never commit `eval_results/` or `results.tsv`.
 4. `bash eval/eval.sh > run.log 2>&1`
 5. Extract: `grep "^score:" run.log`
 6. If eval failed: `tail -n 50 run.log` to debug.
